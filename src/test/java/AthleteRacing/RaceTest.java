@@ -8,7 +8,7 @@ import AthleteRacing.Obstacles.Obstacle;
 import AthleteRacing.Obstacles.Runningtrack;
 import AthleteRacing.Obstacles.Wall;
 import AthleteRacing.RaceService.Race;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
@@ -42,15 +42,15 @@ class RaceTest {
 
         // Проверяем кто дошел.
 
-        Assert.assertEquals(false, boris.getisReady());
-        Assert.assertEquals(false, gulfik.getisReady());
-        Assert.assertEquals(false, pauk.getisReady());
-        Assert.assertEquals(false, vasya.getisReady());
-        Assert.assertEquals(true, bolt.getisReady());
-        Assert.assertEquals(false, kolya.getisReady());
-        Assert.assertEquals(false, term1.getisReady());
-        Assert.assertEquals(false, term2.getisReady());
-        Assert.assertEquals(false, term3.getisReady());
+        Assertions.assertEquals(false, boris.getisReady());
+        Assertions.assertEquals(false, gulfik.getisReady());
+        Assertions.assertEquals(false, pauk.getisReady());
+        Assertions.assertEquals(false, vasya.getisReady());
+        Assertions.assertEquals(true, bolt.getisReady());
+        Assertions.assertEquals(false, kolya.getisReady());
+        Assertions.assertEquals(false, term1.getisReady());
+        Assertions.assertEquals(false, term2.getisReady());
+        Assertions.assertEquals(false, term3.getisReady());
 
     }
 
